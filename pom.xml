@@ -28,6 +28,16 @@
         <sonar.language>java</sonar.language>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -82,7 +92,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <scope>test</artifactId>
         </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
@@ -154,4 +164,3 @@
     </distributionManagement>
 
 </project>
-
