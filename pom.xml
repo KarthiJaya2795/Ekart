@@ -56,12 +56,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-rest</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-rest-hal-browser</artifactId>
-            <version>3.4.1.RELEASE</version> <!-- Updated version -->
+            <artifactId>spring-boot-starter-data-rest</artifactId> <!-- Changed dependency -->
+            <version>2.6.0</version> <!-- Added version -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -164,8 +160,3 @@
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <name>maven-snapshots</name>
-            <url>http://3.108.254.192:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-</project>
